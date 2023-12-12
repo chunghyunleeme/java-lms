@@ -17,6 +17,9 @@ public class Payment {
 
     private LocalDateTime createdAt;
 
+    public Payment() {
+    }
+
     public Payment(Long amount) {
         this.amount = amount;
     }
